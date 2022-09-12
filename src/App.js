@@ -55,6 +55,7 @@ const App = () => {
             </div>
             <p className='mt-sm'>Rating: {book.rating} ⭐️ ⭐️ ⭐️ ⭐️ </p>
             <h5 className='mt-sm'>Author: {book.author}</h5>
+            <p className='mt-sm'>Description: {book.description}</p>
           </div>
         </div>
       ))}
